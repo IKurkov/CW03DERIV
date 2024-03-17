@@ -3,16 +3,8 @@
 #ifndef DERIV_H
 #define DERIV_H
 
-double Deriv1TableBeginO2( double *value, double step );
-double Deriv1CenterO2( double *value, double step );
-double Deriv1TableEndO2( double *value, double step );
-
-double Deriv1TableBeginO4( double *value, double step );
-double Deriv1CenterO4( double *value, double step );
-double Deriv1TableEndO4( double *value, double step );
-
-double Deriv2TableBeginO2( double *value, double step );
-double Deriv2CenterO2( double *value, double step );
-double Deriv2TableEndO2( double *value, double step );
+double Deriv1O2( const double *vals, size_t size, size_t arg, double step );
+double Deriv1O4( const double *vals, size_t size, size_t arg, double step );
+double Deriv2O2( const double *vals, size_t size, size_t arg, double step );
 
 #endif // !DERIV_H
