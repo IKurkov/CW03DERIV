@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="CW03DERIV.cpp" />
     <ClCompile Include="DERIV.cpp" />
+    <ClCompile Include="fort.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DERIV.h" />
